@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hobi.food</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <!-- header section -->
+        <header>
+            <a href="#" class="logo"><i class="fas-fa-untesils"></i>hobi.food</a>
+            
+            <nav class="navbar">
+                <a class="active" href="#home">головна</a>
+                <a href="#dishes">страви</a>
+                <a href="#about">про нас</a>
+                <a href="#menu">меню</a>
+                <a href="#review">відгуки</a>
+                <a href="#order">замовити</a>
+                <a href="#author">про мене</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+
+            </div>
+
+        </header>
+
+        <!-- search form -->
+        <form action="" id="search-form">
+            <input type="search" placeholder="введіть тут..." name="" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+        <!-- home section -->
+        <section class="home" id="home">
+            <div class="swiper-container home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Страва тижня</span>
+                            <h3>Суп з морепродуктами</h3>
+                            <p>Наш суп з морепродуктів є ідеальною першим стравою 
+                            для будь-якої події, будь то романтична вечеря вдвох 
+                            або бізнес-обід з колегами. Він також підійде для 
+                            гостей, які знаходяться на дієті, оскільки містить 
+                            високу кількість білків та низьку кількість жирів.</p>
+                            <a href="#" class="btn">замовити</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Страва тижня</span>
+                            <h3>Курячий суп</h3>
+                            <p>Курячий суп - це класична перша страва, яка завжди
+                            буде в тренді, завдяки своєму чудовому смаку та 
+                            корисним властивостям. Наш ресторан пропонує курячий 
+                            суп, який приготовлений з натуральних інгредієнтів та 
+                            забезпечує максимальний смаковий досвід.</p>
+                            <a href="#" class="btn">замовити</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Страва тижня</span>
+                            <h3>Картопелька-хрум-хрумка</h3>
+                            <p>Ця закуска підійде як для любителів класичного варіанту, 
+                            так і для тих, хто любить експериментувати зі смаками. Ви 
+                            можете спробувати картоплю фрі з різноманітними соусами - 
+                            від класичного кетчупу до пікантного гострого соусу.</p>
+                            <a href="#" class="btn">замовити</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swipper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- dishes section -->
+        <section class="dishes" id="dishes">
+
+            <h3 class="sub-heading"> наші страви </h3>
+            <h1 class="heading"> популярні страви </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/salad1.jpeg" alt="">
+                    <h3>Салат з яловичиною і чері</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span>129.00₴</span>
+                    <a href="#" class="btn">додати до кошика</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/salad2.jpeg" alt="">
+                    <h3>Авокадо з зеленню і томатами</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span>139.00₴</span>
+                    <a href="#" class="btn">додати до кошика</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/salad3.jpeg" alt="">
+                    <h3>Салат зі шпинатом</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span>79.00₴</span>
+                    <a href="#" class="btn">додати до кошика</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/salad4.jpeg" alt="">
+                    <h3>Кисло-солодка трапеза</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>99.00₴</span>
+                    <a href="#" class="btn">додати до кошика</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/salad5.jpeg" alt="">
+                    <h3>Салат з шинкою та капустою</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>79.00₴</span>
+                    <a href="#" class="btn">додати до кошика</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/salad6.jpeg" alt="">
+                    
+                    <h3>Салат з грінками під соусом</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div> 
+                    
+                    <span>109.00₴</span>
+                    <a href="#" class="btn">додати до кошика</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- about section  -->
+        <section class="about" id="about">
+
+            <h3 class="sub-heading">про нас </h3>
+            <h1 class="heading">чому ми?</h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="images/banner.jpeg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Ласкаво просимо!</h3>
+                    <p>У нашому ресторані ми знаємо, що гарна їжа не лише задовольняє голод, 
+                        але й викликає справжні емоції. Наші кухарі творять чудові страви, 
+                        використовуючи лише найсвіжіші та найкращі інгредієнти. Від класичних 
+                        страв до авторських композицій, у нас є щось для кожного.<br>
+                        Забудьте про звичайні ресторани та завітайте до нас, 
+                        щоб насолодитися найкращим з того, що може запропонувати кулінарний 
+                        світ. Ми чекаємо на вас!</p>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>безкоштовна доставка</span>
+                        </div>
+
+                        <div class="icons">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>легка оплата</span>
+                        </div>
+
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 сервіс</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">більше...</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- menu section -->
+        <section class="menu" id="menu">
+
+            <h3 class="sub-heading">Наше меню</h3>
+            <h1 class="heading">Гарячі пропозиції</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/maxim1.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Піца гостра</h3>
+                        <p>Піца "гостра" - це ідеальний вибір для тих, хто любить піцу 
+                            зі складним та насиченим смаком. Ця піца має гострий, але не 
+                            пересилений смак, який точно зробить ваші смакові рецептори 
+                            бадьорими.  </p>
+                        <a href="#" class="btn">додати до кошика</a>
+                        <span class="price">109.00₴</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/maxim2.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Піца 4 сири</h3>
+                        <p>Піца "4 сири" - це смачна комбінація чотирьох 
+                            різних видів сирів на тонкому хрусткому тісті. Ми 
+                            використовуємо сир горгонзола, моцарелу, пармезан та 
+                            дор-блю, щоб створити неповторний смаковий букет, 
+                            який точно здивує ваші смакові рецептори.</p>
+                        <a href="#" class="btn">додати до кошика</a>
+                        <span class="price">129.00₴</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/maxim3.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Деруни домашні</h3>
+                        <p>Хрустка зовнішня скоринка та м'яка середина роблять
+                             деруни чудовою стравою для будь-якого часу дня. </p>
+                        <a href="#" class="btn">додати до кошика</a>
+                        <span class="price">89.00₴</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/maxim4.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Вареники з картоплею</h3>
+                        <p>Вареники з картоплею - це класична українська страва, 
+                            яка стане відмінним вибором для тих, хто любить смачну 
+                            та ситну їжу. </p>
+                        <a href="#" class="btn">додати до кошика</a>
+                        <span class="price">90.00₴</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/maxim5.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Борщ зі сметаною</h3>
+                        <p>Борщ - це класична українська страва, яка є однією
+                             з найпопулярніших наших страв. Ми подаємо борщ зі 
+                             сметаною, що додає йому більш насичений смак та 
+                             текстуру, і створює ідеальний баланс смаків. </p>
+                        <a href="#" class="btn">додати до кошика</a>
+                        <span class="price">120.00₴</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/maxim6.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Панкейк з ягодами і карамеллю</h3>
+                        <p>Панкейки - це солодкий десерт, який точно задовольнить
+                             ваші смакові рецептори. Ми прикрашаємо їх свіжими 
+                             ягодами та карамеллю, що додає багато смаку та аромату.</p>
+                        <a href="#" class="btn">додати до кошика</a>
+                        <span class="price">115.00₴</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/maxim7.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Манти з червоною ікрою</h3>
+                        <p>Наші манти виготовлені з натуральних інгредієнтів, таких як свіже
+                             м'ясо та спеції, та мають багатий та насичений смак. Ми подаємо
+                              їх з ароматною ікрою, яка додає багато смаку та текстури.  </p>
+                        <a href="#" class="btn">додати до кошика</a>
+                        <span class="price">134.00₴</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/maxim8.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Роли асорті</h3>
+                        <p>Роли асорті - це комбінація різноманітних японських суші, які 
+                            дозволяють вам насолодитися різноманітністю смаків та текстур.
+                            Кожен рол має свій унікальний смак та аромат, а подача нашої 
+                            страви гарантує незабутні враження для ваших смакових рецепторів. </p>
+                        <a href="#" class="btn">додати до кошика</a>
+                        <span class="price">110.00₴</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/maxim9.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Брауні в шоколаді</h3>
+                        <p> Брауні - це популярний десерт, який здатний задовольнити бажання 
+                            всіх любителів солодкого. Цей десерт чудово поєднується з кавою 
+                            або чаєм, і буде прекрасним доповненням до будь-якого обіду чи вечері.</p>
+                        <a href="#" class="btn">додати до кошика</a>
+                        <span class="price">70.00₴</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- review section -->
+        <section class="review" id="review">
+
+            <h3 class="sub-heading">відгуки відвідувачів</h3>
+            <h1 class="heading">що про нас кажуть</h1>
+
+            <div class="swiper-container review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/user1.jpeg" alt="">
+                            <div class="user-info">
+                                <h3>Мірен Айзах</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div> 
+                        </div>
+                        <p>Я замовляла страви з цього онлайн ресторану і була 
+                            приємно здивована якістю їжі та швидкістю доставки.
+                             Страви були свіжими та добре приготованими, і все було 
+                             гарячим, як і очікувалося. Цей онлайн ресторан дійсно 
+                             виконав свої обіцянки, і я з задоволенням замовлятиму 
+                             їжу знову. Дякую за чудовий досвід!</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/user2.jpeg" alt="">
+                            <div class="user-info">
+                                <h3>Кароліна Стюарт</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div> 
+                        </div>
+                        <p>Український борщ у цьому закладі неймовірно смачний! 
+                            Рада, що нарешті скуштувала. Ви поділитесь рецептом? 
+                            А то хотілось би пригостити такою стравою всю свою родину! </p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/user3.jpeg" alt="">
+                            <div class="user-info">
+                                <h3>Марія Ойну</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div> 
+                        </div>
+                        <p>Я замовляла їжу з цього онлайн ресторану, і мене приємно 
+                            здивували доступні ціни на страви. Я також вражений якістю 
+                            їжі за такі ціни - все було свіжим, смачним та добре 
+                            приготованим. Враховуючи ціни та якість, я би рекомендувала
+                             цей онлайн ресторан для будь-якої людини, яка шукає смачну 
+                             їжу за доступною ціною!</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/user4.jpeg" alt="">
+                            <div class="user-info">
+                                <h3>Кейт Лінгвістон</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div> 
+                        </div>
+                        <p>Була дуже задоволена обслуговуванням, яке я отримала у цьому 
+                            онлайн ресторані. Клієнтська підтримка була дуже ввічливою 
+                            та швидко реагувала на будь-які мої запити. Якщо у мене 
+                            виникали запитання щодо мого замовлення, представники ресторану 
+                            надавали мені вичерпну інформацію та допомогу. Дякую за професійність. </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- order section -->
+        <section class="order" id="order">
+
+    <h3 class="sub-heading">замовити</h3>
+    <h1 class="heading">легко і швидко</h1>
+
+    <form action="https://formspree.io/f/xeqwndpn" method="POST">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Ваше ім'я та прізвище</span>
+                <input type="text" name="Ім'я та прізвище" placeholder="Введіть Ваше ім'я та прізвище">
+            </div>
+            <div class="input">
+                <span>Ваш номер телефону</span>
+                <input type="number" name="Номер телефону" placeholder="Введіть Ваш номер телефону">
+            </div>
+        </div>
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Ваше замовлення</span>
+                <input type="text" name="Замовлення" placeholder="Введіть назви страв">
+            </div>
+            <div class="input">
+                <span>Спеціальні добавки</span>
+                <input type="test" name="Додатково" placeholder="Добавки до страв">
+            </div>
+        </div>
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Кількість</span>
+                <input type="text" name="Кількість" placeholder="Кількість замовлень">
+            </div>
+            <div class="input">
+                <span>Дата та час</span>
+                <input type="datetime-local" name="Дата" >
+            </div>
+        </div>
+
+        <input type="submit" value="замовити" class="btn">
+
+
+    </form>
+
+        </section>
+
+
+        <section class="author" id="author">
+
+            <h3 class="sub-heading">про мене </h3>
+            <div class="row">
+
+                <div class="content">
+                    <h3>Інформація про мене</h3>
+                    <p>Я Бабій Олена Володимирівна, студентка 4-го курсу спеціальності Комп'ютерні науки
+                        Київського університету імені Бориса Грінченка. Вступила до ВНЗ у 2019 році.
+                    </p>
+                </div>
+                <div class="content">
+                    <h3>Ціль вебсайту</h3>
+                    <p>Сайт був створений для останнього етапу навчання вищої освіти ступеня бакалавра, 
+                        який передбачає написання творчої роботи з обраної теми під керівництвом викладача. 
+                        Темою моєї роботи є "Розробка вебсайту для закладу харчування".
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <section class="footer">
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Міста доступу</h3>
+                    <a href="#">Київ</a>
+                    <a href="#">Тернопіль</a>
+                    <a href="#">Рівне</a>
+                    <a href="#">Харків</a>
+                    <a href="#">Одеса</a>
+                </div>
+
+                <div class="box">
+                    <h3>Швидкі посилання</h3>
+                    <a href="#">головна</a>
+                    <a href="#">страви</a>
+                    <a href="#">про нас</a>
+                    <a href="#">меню</a>
+                    <a href="#">відгуки</a>
+                    <a href="#">замовити</a>
+                </div>
+
+                <div class="box">
+                    <h3>Контактна інформація</h3>
+                    <a href="#">+380 (12)-34-567</a>
+                    <a href="#">+380 (09)-87-654</a>
+                    <a href="#">hobi.food@thegreatest.com</a>
+                    <a href="#">hobi.cs@thegreatest.com</a>
+                    <a href="#">Київ, Україна - 100011</a>
+                </div>
+
+                <div class="box">
+                    <h3>Слідкуйте за оновленнями</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">instagram</a>
+                    <a href="#">twitter</a>
+                    <a href="#">telegram</a>
+
+                </div>
+            </div>
+
+            <div class="credit"> copyright @ 2023 by <span>hobi industries</span></div>
+
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- custom js file link -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
